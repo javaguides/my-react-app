@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+
+<body>
+
+  <script>
+    class Car {
+      constructor(name) {
+        this.brand = name;
+      }
+
+      Present() {
+        return "This is my " + this.brand
+      }
+    }
+
+    class Model extends Car {
+
+      constructor(name, mod) {
+        super(name);
+        this.model = mod;
+      }
+
+      show()
+      {
+        return " it is "+this.model;
+      }
+
+    }
+
+    const mycar = new Car("Ford");
+    const mycar1=new Model("hcskh","Mustang");
+    document.write(mycar.Present());
+    document.write(mycar1.show());
+  </script>
+
+</body>
+
+</html>

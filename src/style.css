@@ -1,0 +1,97 @@
+.signup-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.signup-box {
+  background-color: #f2f2f2;
+  padding: 50px;
+  width: 500px;
+}
+
+h2 {
+  text-align: center;
+}
+
+.form-group {
+  margin-bottom: 40px;
+}
+.name-group {
+  display: flex;
+  justify-content: space-between;
+  gap: 16px;
+}
+.first-name{
+  margin-right: 40px;
+}
+.last-name{
+  margin-right: 40px;
+}
+
+.space {
+  width: 50px;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"] {
+  width: 100%;
+  padding: 10px;
+  border-radius: 3px;
+  border: none;
+}
+.button-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.btn-group {
+ width: 104%;
+   justify-content: flex;
+   align-items: start;
+}
+
+.btn-group .button {
+  display: flex;
+  background-color: #ffffff;
+  border: 1px solid #f7ebeb;
+  color: rgb(2, 2, 2);
+  padding: 5px 50px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 15px;
+  width: 33.33%;
+  cursor: pointer;
+  float: left;
+}
+
+button[type="submit"] {
+  background-color: #080808;
+  color: white;
+  padding: 10px;
+  border-radius: 5px;
+  width: 104%;
+  cursor: pointer;
+  margin-top: 20px;
+}
+.signup-link {
+  
+  width: 104%;
+  height: 20px;
+  text-align: right;
+  margin-top: 20px;
+}
+
+.signup-link a {
+  color: rgb(24, 24, 218);
+  text-decoration: none;
+}
+
+.signup-link a:hover {
+  text-decoration: underline;
+}
+
+
