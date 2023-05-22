@@ -1,13 +1,14 @@
-import './App.css';
+import React from 'react';
+import SignUpPage from "./SignUpPage";
 
 function App() {
   return (
-    <div className="App">       
-       <h1>
-        WELCOME TO REACT TUTORIAL
-       </h1>
-    </div>
+   
+        <div className="App">
+          <SignUpPage />
+        </div>
   );
 }
 
 export default App;
+
